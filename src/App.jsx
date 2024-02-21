@@ -17,9 +17,9 @@ function ColorSchemesExample() {
         <Container>
           <Navbar.Brand href="#home">Hospital</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/pages/Home.jsx">Home</Nav.Link>
-            <Nav.Link href="/pages/Login.jsx">Login</Nav.Link>
-            <Nav.Link href="#pricing">Register</Nav.Link>
+            <Nav.Link href="/pages/shared/Home.jsx">Home</Nav.Link>
+            <Nav.Link href="/pages/shared/Login.jsx">Login</Nav.Link>
+            <Nav.Link href="/pages/shared/Register.jsx">Register</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
