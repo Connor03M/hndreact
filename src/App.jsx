@@ -15,11 +15,11 @@ function ColorSchemesExample() {
     <>
       <Navbar fixed="top" bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Hospital</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="/pages/Home.jsx">Home</Nav.Link>
+            <Nav.Link href="/pages/Login.jsx">Login</Nav.Link>
+            <Nav.Link href="#pricing">Register</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
