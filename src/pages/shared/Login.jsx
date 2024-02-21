@@ -1,14 +1,9 @@
 import "./login.css";
 import React from "react";
+import { Col, Button, Row, Container, Card, Form } from "react-bootstrap";
+
 
 const Login = () => {
-    return (
-        <h1>register</h1>
-    )
-}
-export default Login
-
-
   return (
     <div>
       <Container>
@@ -69,3 +64,6 @@ export default Login
       </Container>
     </div>
   );
+}
+
+export default Login;
